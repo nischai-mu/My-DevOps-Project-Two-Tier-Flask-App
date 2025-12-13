@@ -47,7 +47,7 @@ sudo apt update && sudo apt  install docker-compose
 sudo docker-compose --version
 
 ````
-### install jenkins, you need the java to be installed on ec2
+### to install jenkins, you need the java to be installed on ec2
 
 ```bash
 sudo apt update

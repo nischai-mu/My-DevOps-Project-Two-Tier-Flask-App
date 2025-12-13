@@ -1,5 +1,4 @@
 # Devops 2tier application
-
 note: i got this on some youtube channel so im trying replicate the things i learnt from this
 
 ---
@@ -37,9 +36,9 @@ vm on cloud(EC2) on top of it you have to install jenkins(for CI/CD), Docker to 
 - also ensure Auto-assign public IP is enabled  
 - leave rest default & launch instance  
 
-````
 
-````
+
+
 ### install Docker, 
 ```bash
 sudo apt update && sudo apt install docker.io -y
@@ -173,5 +172,3 @@ congratulations you have successfully created a simple 2tier application using d
 * [https://www.youtube.com/watch?v=X6Kw2_wZr1E](https://www.youtube.com/watch?v=X6Kw2_wZr1E)
 * [https://github.com/nischai-mu/DevOps-Project-Two-Tier-Flask-App/tree/main](https://github.com/nischai-mu/DevOps-Project-Two-Tier-Flask-App/tree/main)
 
-```
-```

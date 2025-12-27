@@ -1,5 +1,5 @@
 # Devops 2tier application
-note: i got this on some youtube channel so im trying replicate the things i learnt from this
+Note: i got this on some youtube channel so im trying replicate the things i learnt from this
 
 ---
 

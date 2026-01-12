@@ -22,7 +22,9 @@ vm on cloud(EC2) on top of it you have to install jenkins(for CI/CD), Docker to 
 - click on launch instances  
 - give the instance name  
 - select Application and OS Images (Amazon Machine Image)  
-  ubuntu 22.04 LTS free tier  
+  ubuntu 22.04 LTS free tier
+
+![AMI Selection](diagrams/AMI.png)
 - choose instance type t3.micro (choose free tier eligible)  
 - keypair required for the login  
 

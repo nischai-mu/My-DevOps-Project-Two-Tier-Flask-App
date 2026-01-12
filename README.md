@@ -15,7 +15,9 @@ vm on cloud(EC2) on top of it you have to install jenkins(for CI/CD), Docker to 
 ### EC2 setup steps
 
 - sign-in to aws console  
-- search for ec2 instance  
+- search for ec2 instance
+-you will land this page below
+![EC2 Homepage](diagrams/ec2-homepage.png)
 - click on launch instances  
 - give the instance name  
 - select Application and OS Images (Amazon Machine Image)  

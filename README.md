@@ -42,8 +42,8 @@ vm on cloud(EC2) on top of it you have to install jenkins(for CI/CD), Docker to 
 `tip: once you login first create a SG, while launching ec2 you can select the existing SG`
 
 - also under network settings ensure Auto-assign public IP is enabled  
-- leave rest default & launch instance  
-
+- leave rest default & launch instance
+- After launch click on connect - EC2 instance connect, once you are inside the instance install docker
 
 
 

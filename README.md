@@ -41,7 +41,7 @@ vm on cloud(EC2) on top of it you have to install jenkins(for CI/CD), Docker to 
 
 `tip: once you login first create a SG, while launching ec2 you can select the existing SG`
 
-- also ensure Auto-assign public IP is enabled  
+- also under network settings ensure Auto-assign public IP is enabled  
 - leave rest default & launch instance  
 
 

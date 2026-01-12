@@ -50,7 +50,7 @@ vm on cloud(EC2) on top of it you have to install jenkins(for CI/CD), Docker to 
 ### install Docker, 
 ```bash
 sudo apt update && sudo apt install docker.io -y
-sudo apt update && sudo apt  install docker-compose
+sudo apt update && sudo apt install docker-compose
 sudo docker-compose --version
 
 ````
@@ -74,7 +74,7 @@ sudo apt update
 sudo apt install jenkins
 ```
 
-Retrieve the initial admin password:
+After installation, you need to Retrieve the initial admin password, run below command
 
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword

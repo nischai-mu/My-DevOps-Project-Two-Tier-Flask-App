@@ -124,9 +124,11 @@ you can see the 2tier application getting deployed
 access the flask app @
 `http://<ec2-public-ip>:5000`
 
+![Flask Application Home](diagrams/apphome.png)
+
 you can see the app is connected to mysql database
 
-you can verify the mysql container is running by:
+you can verify the mysql container is up, run the below command 
 
 ```bash
 sudo docker ps
@@ -135,6 +137,8 @@ sudo docker ps
 (in the ec2 instance)
 
 you can see 2 containers running one for flask app another for mysql database
+
+![Two Tier Containers](diagrams/2container.png)
 
 ---
 

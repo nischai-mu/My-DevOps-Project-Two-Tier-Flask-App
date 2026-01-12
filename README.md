@@ -30,11 +30,14 @@ vm on cloud(EC2) on top of it you have to install jenkins(for CI/CD), Docker to 
 
 ### Security group configuration
 
-- configure security group  
+- configure security group
+![SG Rules](diagrams/SGrules.png)
 - allow inbound traffic for:  
   - port 22 (ssh)  
   - port 8080 (jenkins)  
-  - port 5000 (flask app)  
+  - port 5000 (flask app)
+  
+![Selecting SG](diagrams/ec2-selectingSG.png)
 
 `tip: once you login first create a SG, while launching ec2 you can select the existing SG`
 
